@@ -1,5 +1,8 @@
 {
     "scripts": {
-        "deploy": "gh-pages -d dist"
+        "deploy": "gh-pages -d dist -b production"
+    },
+    "devDependencies": {
+        "gh-pages": "^6.1.1"
     }
 }
